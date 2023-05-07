@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import css from './Transactions.module.css'
-// import {transactions} from './transactions.json'
+
 
 export const Transactions = ({ items }) => {
     return (
