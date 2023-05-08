@@ -25,8 +25,8 @@ return (
       <span className={css.quantity}>{views}</span>
     </li>
     <li>
-      <span className={css.label}>{likes}</span>
-      <span className={css.quantity}>3000</span>
+      <span className={css.label}>Likes</span>
+      <span className={css.quantity}>{likes}</span>
     </li>
   </ul>
 </div>
