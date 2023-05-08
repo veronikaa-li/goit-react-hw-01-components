@@ -1,5 +1,6 @@
 export const bgColor = () => {
-    return `#${Math.floor(Math.random() * 16777215)
-      .toString(16)
-      .padStart(6, 0)}`;
+  const hue = Math.floor(Math.random() * 360);
+  const saturation = Math.floor(Math.random() * 30) + 70;
+  const lightness = Math.floor(Math.random() * 30) + 70;
+  return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
   };

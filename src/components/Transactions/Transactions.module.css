@@ -2,16 +2,18 @@
     font-size: 0.9em;
     width: 460px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: rgb(245, 230, 245);
     margin-bottom: 30px;
   }
   .tableHead {
-    background-color: #009879;
+    background-color: #63a197;
     color: #ffffff;
     text-align: center;
   }
   .tableTitle,
   .tableValue {
     padding: 12px 15px;
+    align-items: center;
   }
   
   .tableRow:nth-of-type(even) {

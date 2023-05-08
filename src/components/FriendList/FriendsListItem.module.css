@@ -5,6 +5,7 @@
     align-items: center;
     gap: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(245, 230, 245);
   }
   .status {
     display: block;
@@ -19,7 +20,7 @@
   }
   .name {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 600;
     color: rgb(55, 55, 56);
   }
   
